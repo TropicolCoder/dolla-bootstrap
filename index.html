@@ -39,11 +39,14 @@
         </nav>
         
         <!-- Mid -->
-        <div class="mid">
-            <video playsinline autoplay muted loop>
+        <div class="mid" id="vid">
+            <video playsinline autoplay muted loop='true'>
                 <source class='embed-responsive' src="videos/1.mp4" type='video/mp4'>
                 <source class='embed-responsive' src="videos/1.webm" type='video/webm'>
             </video>
+            <script>
+                document.getElementById('vid').play();
+            </script>
             <div class="hero text-center">
                 <h2 class="text-light display-4 font-weight-bold">Virtual Banking Made Easy</h2>
                 <p class="text-light mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing 
