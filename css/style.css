@@ -71,7 +71,7 @@ html {
     text-align: center;
 }
 
-.mid video {
+.mid img {
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -295,8 +295,17 @@ body > footer {
         padding-left: 0.8rem;
     }
 
+    #navbarSupportedContent > ul > li:first-child > a {
+        margin: 0.8rem 0;
+    }
+
     #navbarSupportedContent > ul > li:nth-child(n) > a {
-        padding: 0.8rem 0;
+        margin: 0.8rem 0;
+    }
+
+    #navbarSupportedContent > button {
+        margin-top: 1rem;
+        margin-left: 0.8rem;
     }
 
     .mid .hero h2 {
